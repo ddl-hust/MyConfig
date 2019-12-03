@@ -1,4 +1,4 @@
-;管理员运行
+	;管理员运行
 if not A_IsAdmin
 {
    Run *RunAs "%A_ScriptFullPath%" 
@@ -33,7 +33,14 @@ CapsLock & l::
     Send {right}
 return
 
-; 行首行尾
+CapsLock & p::
+Send ^{ Left }
+return
+
+CapsLock & `;::
+Send ^{ Right }
+return
+
 CapsLock & u::
 Send {home}
 return
@@ -47,6 +54,12 @@ return
 CapsLock & y::
 Send { { }
 return
+
+CapsLock & /::
+Send { Shift }
+return
+
+
 ;=====================================================================o
 ;                           CapsLock Deletor                         ;|
 ;-----------------------------------o---------------------------------o
