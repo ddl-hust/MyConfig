@@ -11,3 +11,10 @@ https://karabiner-elements.pqrs.org/
 
 ###  ahk
 windows 下面autohotkey的键位映射
+
+
+### zsh
+zsh 终端一些常用的插件配置
+plugins=(docker docker-compose z git autojump zsh-syntax-highlighting zsh-autosuggestions)
+
+
