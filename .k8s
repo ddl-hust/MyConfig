@@ -1,0 +1,1 @@
+alias kgjob='kubectl get jobs  --field-selector=status.successful!=1'
