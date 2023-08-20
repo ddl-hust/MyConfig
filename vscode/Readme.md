@@ -1,0 +1,2 @@
+- workbench.action.splitEditor* ; new split view
+- workbench.action.moveActiveEditorGroupLeft ; move focus
